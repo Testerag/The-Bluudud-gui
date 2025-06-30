@@ -6,7 +6,7 @@ local mainFrame = Instance.new("Frame")
 mainFrame.Size = UDim2.new(0, 400, 0, 300)  
 mainFrame.Position = UDim2.new(0.5, -200, 0.5, -150)  
 mainFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)  
-mainFrame.BorderColor3 = Color3.fromRGB(128, 0, 128)  
+mainFrame.BorderColor3 = Color3.fromRGB(65, 130, 242)  
 mainFrame.BorderSizePixel = 4  
 mainFrame.Parent = screenGui  
 
@@ -16,7 +16,7 @@ title.Size = UDim2.new(1, 0, 0, 40)
 title.Text = "b1uuGUI XD"  
 title.TextColor3 = Color3.new(0, 0, 1)  
 title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)  
-title.BorderColor3 = Color3.fromRGB(128, 0, 128)  
+title.BorderColor3 = Color3.fromRGB(65, 130, 242)  
 title.BorderSizePixel = 2  
 title.Font = Enum.Font.SourceSansBold  
 title.TextSize = 22  

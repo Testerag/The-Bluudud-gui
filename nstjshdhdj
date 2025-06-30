@@ -1,4 +1,4 @@
-<pre style="caret-color: rgb(255, 255, 255); color: rgb(255, 255, 255); font-style: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; widows: auto; word-spacing: 0px; -webkit-tap-highlight-color: rgba(26, 26, 26, 0.3); -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; text-decoration: none; overflow-wrap: break-word; white-space: pre-wrap;">local screenGui = Instance.new("ScreenGui")  
+local screenGui = Instance.new("ScreenGui")  
 screenGui.Name = "ScriptedFEGui"  
 screenGui.Parent = game.CoreGui  
 
@@ -13,10 +13,10 @@ mainFrame.Parent = screenGui
 -- Title  
 local title = Instance.new("TextLabel")  
 title.Size = UDim2.new(1, 0, 0, 40)  
-title.Text = "bluuGUI XDD" 
-title.TextColor3 = Color3.new(0, 0, 1)  
+title.Text = "Purple Gui by ContactusRoblox404"  
+title.TextColor3 = Color3.new(1, 1, 1)  
 title.BackgroundColor3 = Color3.fromRGB(0, 0, 0)  
-title.BorderColor3 = Color3.fromRGB(0, 0, 1)  
+title.BorderColor3 = Color3.fromRGB(128, 0, 128)  
 title.BorderSizePixel = 2  
 title.Font = Enum.Font.SourceSansBold  
 title.TextSize = 22  
@@ -27,7 +27,7 @@ local closeButton = Instance.new("TextButton")
 closeButton.Size = UDim2.new(0, 30, 0, 30)  
 closeButton.Position = UDim2.new(1, -35, 0, 5)  
 closeButton.Text = "X"  
-closeButton.TextColor3 = Color3.new(0, 0, 1)  
+closeButton.TextColor3 = Color3.new(1, 1, 1)  
 closeButton.BackgroundColor3 = Color3.fromRGB(128, 0, 128)  
 closeButton.Font = Enum.Font.SourceSansBold  
 closeButton.TextSize = 20  
@@ -76,7 +76,11 @@ local function renderPage(page)
         createScriptButton("Nameless", 60, "https://raw.githubusercontent.com/FilteringEnabled/NamelessAdmin/main/Source")    
         createScriptButton("Infinite Yield", 110, "https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source")    
         createScriptButton("Backdoor MrPurple", 160, "https://raw.githubusercontent.com/contactusRoblox404/Backdoor-MrPurple/refs/heads/main/Backdoor-MrPurple")    
-        createScriptButton("Prison Life", 210, "https://rawscripts.net/raw/Prison-Life-Prizz-q we.com/infyiff/backup/main/dex.lua")    
+        createScriptButton("Prison Life", 210, "https://rawscripts.net/raw/Prison-Life-Prizz-Life-33936")    
+
+    elseif page == 2 then    
+        createScriptButton("c00lgui", 60, "https://rawscripts.net/raw/Universal-Script-c00lgui-42358")    
+        createScriptButton("Dex", 110, "https://raw.githubusercontent.com/infyiff/backup/main/dex.lua")    
         createScriptButton("Fling Gui", 160, "https://raw.githubusercontent.com/contactusRoblox404/FlingGui/refs/heads/main/UltraFlinger")    
         createScriptButton("Hitbox Gui", 210, "https://pastefy.app/ItfO0tdg/raw")    
 
@@ -207,7 +211,7 @@ end
 local backBtn = Instance.new("TextButton")  
 backBtn.Size = UDim2.new(0, 30, 0, 30)  
 backBtn.Position = UDim2.new(0, 10, 1, -35)  
-backBtn.Text = "&lt;"  
+backBtn.Text = "<"  
 backBtn.TextColor3 = Color3.new(1, 1, 1)  
 backBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)  
 backBtn.BorderColor3 = Color3.fromRGB(128, 0, 128)  
@@ -216,7 +220,7 @@ backBtn.Font = Enum.Font.SourceSansBold
 backBtn.TextSize = 20  
 backBtn.Parent = mainFrame  
 backBtn.MouseButton1Click:Connect(function()  
-    if currentPage &gt; 1 then  
+    if currentPage > 1 then  
         currentPage -= 1  
         renderPage(currentPage)  
     end  
@@ -225,9 +229,20 @@ end)
 local nextBtn = Instance.new("TextButton")  
 nextBtn.Size = UDim2.new(0, 30, 0, 30)  
 nextBtn.Position = UDim2.new(1, -40, 1, -35)  
-nextBtn.Text = "&gt;"  
+nextBtn.Text = ">"  
 nextBtn.TextColor3 = Color3.new(1, 1, 1)  
 nextBtn.BackgroundColor3 = Color3.fromRGB(0, 0, 0)  
 nextBtn.BorderColor3 = Color3.fromRGB(128, 0, 128)  
 nextBtn.BorderSizePixel = 2  
-nextBtn.Font = Enum.Font.SourceSansBold  </pre>
+nextBtn.Font = Enum.Font.SourceSansBold  
+nextBtn.TextSize = 20  
+nextBtn.Parent = mainFrame  
+nextBtn.MouseButton1Click:Connect(function()  
+    if currentPage < totalPages then  
+        currentPage += 1  
+        renderPage(currentPage)  
+    end  
+end)  
+
+-- Show the first page  
+renderPage(1)

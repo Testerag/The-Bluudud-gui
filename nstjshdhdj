@@ -84,48 +84,7 @@ local function renderPage(page)
         createScriptButton("Fling Gui", 160, "https://raw.githubusercontent.com/contactusRoblox404/FlingGui/refs/heads/main/UltraFlinger")    
         createScriptButton("Hitbox Gui", 210, "https://pastefy.app/ItfO0tdg/raw")    
 
-    elseif page == 3 then    
-        createScriptButton("Telekinesis", 60, "https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty1.lua")    
-        createScriptButton("Control NPC", 110, "https://raw.githubusercontent.com/randomstring0/Qwerty/refs/heads/main/qwerty38.lua")    
-        createScriptButton("Tptools", 160, "https://rawscripts.net/raw/Universal-Script-Tptools-41801")    
-        createScriptButton("Plasma Shotgun", 210, "https://raw.githubusercontent.com/contactusRoblox404/Plasma-Shotgun/refs/heads/main/Plasma%20Shotgun")    
-
-    elseif page == 4 then    
-        createScriptButton("666", 60, "https://raw.githubusercontent.com/contactusRoblox404/666/refs/heads/main/666")    
-        createScriptButton("Killaura", 110, "https://raw.githubusercontent.com/contactusRoblox404/Killaura/refs/heads/main/Killaura")    
-        createScriptButton("Ban Hammer", 160, "https://rawscripts.net/raw/Universal-Script-Ban-Hammer-33938")    
-        createScriptButton("Fe Bypass", 210, "https://rawscripts.net/raw/Universal-Script-FE-BYPASS-Idk-work-or-not-40484")    
-
-    elseif page == 5 then    
-        createScriptButton("FE SCP-096", 60, "https://rawscripts.net/raw/Universal-Script-FE-SCP-096-36948")    
-        createScriptButton("ak-47", 110, "https://raw.githubusercontent.com/sinret/rbxscript.com-scripts-reuploads-/main/ak47")    
-        createScriptButton("Grab Knife", 160, "https://rawscripts.net/raw/Universal-Script-Grab-knife-v4-24753")    
-        createScriptButton("1x1x1x1 purple gui", 210, "https://raw.githubusercontent.com/contactusRoblox404/1x1x1x1/refs/heads/main/1x1x1x1")    
-
-    elseif page == 6 then    
-        createScriptButton("LaserGun", 60, "https://raw.githubusercontent.com/contactusRoblox404/LaserGun/refs/heads/main/LaserGun")    
-        createScriptButton("McDonalds", 110, "https://rawscripts.net/raw/Universal-Script-Spooky-Scary-MCDonalds-Script-28270")    
-        createScriptButton("C00lkidd", 160, "https://raw.githubusercontent.com/contactusRoblox404/C00lkidd/refs/heads/main/C00lkidd")    
-        createScriptButton("Dodge", 210, "https://rawscripts.net/raw/Universal-Script-Universal-FE-Sans-Dodge-40667")    
-
-    elseif page == 7 then    
-        createScriptButton("Btools", 60, "https://rawscripts.net/raw/Universal-Script-Btools-41524")    
-        createScriptButton("ForceField", 110, "https://rawscripts.net/raw/Client-Replication-ForceField-script-fe-in-made-by-w000mkidd-29643")    
-        createScriptButton("Hollow Purple", 160, "https://rawscripts.net/raw/Universal-Script-Temu-Hollow-Purple-36286")    
-        createScriptButton("RC7", 210, "https://raw.githubusercontent.com/contactusRoblox404/RC7/refs/heads/main/.gitignore")   
- 
-elseif page == 8 then    
-        createScriptButton("Fe Chara", 60, "https://rawscripts.net/raw/Universal-Script-Psycho-Chara-use-an-reanimation-42989")    
-        createScriptButton("Giant Sword", 110, "https://rawscripts.net/raw/Universal-Script-TXT-UNIVERSAL-GIANT-X-SWORD-43287")    
-        createScriptButton("Invisible", 160, "https://raw.githubusercontent.com/khen791/script-khen/refs/heads/main/Fe%20Invisible.txt")    
-        createScriptButton("Nuke", 210, "https://rawscripts.net/raw/Universal-Script-TXT-NUKE-TOOL-43278")  
-  
-elseif page == 9 then    
-        createScriptButton("Fe Shotgun", 60, "https://rawscripts.net/raw/Universal-Script-TXT-SNIPER-43274")    
-        createScriptButton("Fe Guardian", 110, "https://rawscripts.net/raw/Universal-Script-TXT-Guardia-Yellow-43283")    
-        createScriptButton("Fe Sword Red", 160, "https://rawscripts.net/raw/Universal-Script-TXT-KNIFE-RED-BIG-43286")    
-        createScriptButton("Fe Sans", 210, "https://rawscripts.net/raw/Universal-Script-TXT-SANS-CRAZY-RAINBOW-EDITION-43282")    
-
+    
     elseif page == 10 then   
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    

@@ -130,7 +130,7 @@ elseif page == 9 then
         local thankYouLabel = Instance.new("TextLabel")    
         thankYouLabel.Size = UDim2.new(1, 0, 1, -40)    
         thankYouLabel.Position = UDim2.new(0, 0, 0, 40)    
-        thankYouLabel.Text = "Thank you for using Purple Gui by ContactusRoblox404"    
+        thankYouLabel.Text = "PLAYER STATS EDITOR XDD"    
         thankYouLabel.TextColor3 = Color3.new(1, 1, 1)    
         thankYouLabel.BackgroundTransparency = 1    
         thankYouLabel.Font = Enum.Font.SourceSansBold    
